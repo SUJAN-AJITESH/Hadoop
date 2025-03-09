@@ -1,3 +1,13 @@
+Questuon:
+Use MapReduce to find the shortest path between two people in a
+social graph. Hint: Use an adjacency list to model a graph, and for
+each node store the distance from the original node, as well as a
+back pointer to the original node. Use the mappers to propagate the
+distance to the original node, and the reducer to restore the state of
+the graph. Iterate until the target node has been reached.
+
+
+Answer:
 Modelling the graph using an adjacency list, where each node stores:
 
 Neighbors (list of directly connected nodes)
