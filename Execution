@@ -1,0 +1,7 @@
+hadoop jar /path/to/hadoop-streaming.jar \
+    -input graph.txt \
+    -output output_dir \
+    -mapper mapper.py \
+    -reducer reducer.py \
+    -file mapper.py \
+    -file reducer.py
